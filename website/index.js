@@ -1,6 +1,6 @@
 let a = document.getElementsByClassName('green')[0];
 
-a.hover = function() {
+a.onmouseover = function() {
     if (a.classList.contains('green')) {
         a.classList.remove('green');
         a.classList.add('simple');
